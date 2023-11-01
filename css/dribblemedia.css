@@ -1,0 +1,9 @@
+@media(max-width:830px){
+body{
+    background-color: #ccc;
+}
+.featurep{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}

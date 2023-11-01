@@ -1,0 +1,372 @@
+/* first nav section */
+.all-nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+    position: fixed; width: 100%;
+    top: 0;
+    background-color: antiquewhite;
+
+}
+.all-nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(77, 76, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+.navb {
+    text-align: right;
+}
+.navb a:nth-child(2){
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+/* end of first nav section */
+
+/* second nav */
+.all-nav2{
+    margin: 20px 100px 0px 100px;
+    background-image: url(../img/navbar\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.all-nav2 image{
+    height: 600px;
+    width: 100%;
+}
+.nava2{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    text-transform: capitalize;
+    padding: 40px;
+    align-items: baseline;
+}
+.nava21{
+    color:rgb(5, 5, 110);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navb1 a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    color:rgb(5, 5, 110) ;
+}
+.navb1 a:last-child{
+    background-color: tomato;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+
+/* end of second nav */
+
+/* nav writeups */
+.nav-writeup{
+
+    border: 1px solid #ccc;
+    margin-top:80px ;
+    margin-left: 40rem;
+    padding: 20px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.nav-writeup p:nth-child(1){
+    font-size: 200%
+}
+.nav-writeup h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    margin-bottom: 0;
+}
+.nav-writeup a{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.nav-writeup p:nth-child(2){
+    margin-bottom: 20px;
+}
+/* end of nav writeups */
+.all-body{
+margin: 15%;
+margin-top: 5rem;
+}
+/* blog section */
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: fit-content;
+    gap: 2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.blog div img{
+    width: 100%;
+}
+.blog p{
+    margin-bottom: 0;
+}
+.blog a{
+    padding: 5px 10px;
+    background-color:rgb(10, 41, 10);
+    text-decoration: none;
+    color: white;
+}
+.blog h3{
+    margin-top: 0;
+}
+
+.blog1{
+    background-image: url(../img/nav\ img\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+}
+.blog2{
+    background-image: url(../img/nav\ img\ \(6\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color:white;
+}
+.blog3{
+    background-image: url(../img/kara-eads-buhmhprfo3g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+/* end of blog section */
+
+/* feature section */
+.featurenav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+    margin-top: 50px;
+    padding: 3px 10px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+.featurenav1{
+    color:rgb(5, 5, 110) ;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.featurenav2{
+   text-align: right;
+}
+.featurenav2 a{
+    text-decoration: none;
+    color:rgb(5, 5, 110) ;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    font-size: 100;
+}
+
+/* feature posts */
+.featurep{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: baseline;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.featurep div img{
+    width: 100%;
+    height: 150px;
+}
+.featurep h5{
+    margin: 0;
+    color: rgb(83, 83, 83);
+}
+.featurep h3{
+    margin: 0;
+}
+.featurepp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.featurepp div img{
+    width: 100%;
+    height: 150px;
+}
+.featurepp h5{
+    margin: 0;
+    color: rgb(83, 83, 83);
+}
+.featurepp h3{
+    margin: 0;
+}
+/* end of feature posts */
+/* end of feature section */
+
+/* living room section */
+.living{
+    background-image: url(../img/nav\ img\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.living a{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.living p{
+    margin-bottom: 4rem;
+    
+}
+/* end of living room section */
+
+/* featured products */
+.living-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: baseline;
+    margin-bottom: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.living-img img{
+    width: 100%;
+    height: 150px;
+}
+.living-img h5{
+    margin: 0;
+}
+.living-img h3{
+    margin: 0;
+}
+.living-img2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 40px;
+}
+
+.living-img2 a{
+    padding: 5px 10px;
+    background-color:rgb(10, 41, 10);
+    text-decoration: none;
+    color: white;
+}
+.living-img21{
+    background-image: url(../img/nav\ img\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+}
+.living-img22{
+    background-image: url(../img/nav\ img\ \(6\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color:white;
+}
+/* end of featured products */
+
+/* mobile */
+.mobile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mobimg img{
+    width: 100%;
+}
+.moblog h2{
+    text-transform: capitalize;
+    color: rgb(75, 12, 134);
+}
+.mlink{
+    display: flex;
+    gap: 2rem;
+}
+.mlink a{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+/* end of mobile */
+
+/* sponsors section */
+.sponsors{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #dfdfdf;
+    margin:0;
+    padding: 20px 80px;
+    width: 100%;
+    align-items: center;
+}
+.sponsors img{
+    width: 100%;
+}
+/*  end of sponsors section */
+.quality{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.quality h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(5, 5, 110);
+    text-transform: capitalize;
+}
+.quality p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quality2nd{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.quality2 h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(5, 5, 110);
+    text-transform: capitalize;
+}
+.quality2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quality2nd a{
+    text-decoration: none;
+    color: black;
+}
+.quality2nd h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(5, 5, 110);
+    text-transform: capitalize;
+}
